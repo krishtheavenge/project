@@ -1,0 +1,79 @@
+body
+{
+  color: white;
+  background: #03e6ee;
+}
+span
+{
+  font-size: 30px;
+}
+#result{
+  background-color: black;
+  border: #03e6ee 4px solid;
+  width: 350px;
+  height: 318px; 
+  border-radius: 10px;
+}
+#result_emotion_name ,#result_emotion_name2  
+{
+  color: black;
+}
+.emotion_name
+{
+  font-size: 40px;
+}
+.emoji
+{
+  font-size:48px;
+}
+.heading{
+  font-size:xx-large;
+  border-radius: 10px;
+  letter-spacing: 10px;
+}
+label{
+  border-radius: 10px;
+  background-color: white;
+  color: rgb(246, 131, 0);
+  font-size: 15px;
+  padding: 5px;
+}
+.snapshot{
+  background-color: white;
+  width: 352px;
+  height: 430px;
+  padding: 1px;
+  border-radius: 30px;
+}
+.snapshot1{
+  background-color: black;
+  width: 352px;
+  height: 430px;
+  padding: 1px;
+  border-radius: 30px;
+}
+.success {
+  border-color: #4CAF50;
+  color: green;
+}
+
+.success:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+.info {
+  border-color: #2196F3;
+  color: dodgerblue
+}
+
+.info:hover {
+  background: #2196F3;
+  color: white;
+}
+#camera{
+  background-color: black;
+  border: #03e6ee 4px solid;
+  width: 350px;
+  height: 258px; 
+  border-radius: 10px;
+}

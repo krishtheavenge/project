@@ -1,0 +1,84 @@
+ 
+<html>
+  <head>
+    <title>gestures</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+  <div class=" mb1 container">
+  
+    <center>
+                <h1 class="btn btn-warning heading">FACE TO GESTURE APP<br>
+                  <span>&#128077;</span>
+                  <span>&#128078;</span>
+                  <span>&#128079;</span>
+                  <span>&#129304;</span>
+                  <span>&#128076;</span>
+                </h1>
+      <br><br>
+
+      <p style="font-size: 22px;">Take your selfie to generate gesture
+        <br>
+        <span>&#128077;</span>
+        <span>&#128076;</span>
+        <span>&#9996;</span>
+        <br>
+        <b style="color: teal">Victory?</b>
+        <br>
+        <b style="color: lime">Amazing?</b>
+        <br>
+        <b style="color: red">Best?</b>
+        <br>
+      </p>
+      <div class="mb1 snapshot1 col-lg-4 col-md-4 col-sm-4 col-xs-12">
+            <label>Cam-</label>
+            <br><br>
+            <div id="camera"></div>
+            <br>
+            <button class="btn info" onclick="capture()">Capture Image</button>
+      </div>
+              <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                <label>Gesture 1-</label>
+                <p class="emotion_name" id="result_emotion_name"></p>
+                <p id="update_emoji" class="emoji"></p>
+                <br><br>
+                &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;
+                <label>Gesture 2-</label>
+                <p class="emotion_name" id="result_emotion_name2"></p>
+                <p id="update_emoji2" class="emoji"></p>
+              </div>
+              <div class="mb1 snapshot col-lg-4 col-md-4 col-sm-4 col-xs-12">
+                <label>Your Snap - </label>
+             <div id="result"></div>
+               <br>
+             <button onclick="check();" class="btn success">Check Gesture</button>
+             </div>
+
+    </center>
+
+  </div>
+
+<script src="main.js"></script>
+
+  </body>
+</html>
+
+
+ 
